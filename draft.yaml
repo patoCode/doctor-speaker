@@ -1,0 +1,9 @@
+models:
+  Area:
+    title: string:400
+    content: longtext
+    published_at: nullable timestamp
+  Sintoma:
+    title: string:400
+    content: longtext
+    published_at: nullable timestamp  

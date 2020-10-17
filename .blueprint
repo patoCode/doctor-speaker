@@ -1,0 +1,11 @@
+created:
+    - database/factories/AreaFactory.php
+    - database/factories/SintomaFactory.php
+    - database/migrations/2020_10_17_231559_create_areas_table.php
+    - database/migrations/2020_10_17_231600_create_sintomas_table.php
+    - app/Area.php
+    - app/Sintoma.php
+models:
+    Post: { title: 'string:400', content: longtext, published_at: 'nullable timestamp' }
+    Area: { title: 'string:400', content: longtext, published_at: 'nullable timestamp' }
+    Sintoma: { title: 'string:400', content: longtext, published_at: 'nullable timestamp' }
